@@ -1,0 +1,40 @@
+.gameboard{
+  height: 70vh;
+  width: 50%;
+  border: solid 3px black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.square{
+  width: 33.333%;
+  height: 33.333%;
+  border: solid 3px black;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.circle , .cross{
+  font-size: 500%;
+  font-weight: bold;
+}
+.circle{
+  color: red;
+}
+.cross{
+  color: blue;
+}
+.msg{
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
